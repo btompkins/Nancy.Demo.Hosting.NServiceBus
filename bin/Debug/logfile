@@ -1,0 +1,18 @@
+2013-01-14 15:50:35,694 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-14 15:50:35,959 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-14 15:50:35,975 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
+2013-01-14 15:50:36,006 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-14 15:50:36,022 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-14 15:50:43,023 [10] INFO  NServiceBusHosting.Main [(null)] <(null)> - Starting Nancy host on http://localhost:8888/nancy/
+2013-01-14 15:51:23,870 [10] INFO  NServiceBusHosting.Main [(null)] <(null)> - Stopping Nancy host
+2013-01-14 15:51:23,963 [10] ERROR NServiceBusHosting.Main [(null)] <(null)> - Main could not be stopped.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NServiceBusHosting.Main.Stop() in C:\Users\Brendan\Desktop\Nancy\src\Nancy.Demo.Hosting.NServiceBus\Main.cs:line 39
+   at NServiceBus.Hosting.Configuration.ConfigManager.Shutdown() in c:\TeamCity\buildAgent\work\nsb.master_2\src\hosting\NServiceBus.Hosting\Configuration\ConfigurationManager.cs:line 101
+2013-01-14 15:53:16,399 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2013-01-14 15:53:16,633 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - No valid license found.
+2013-01-14 15:53:16,665 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Configuring NServiceBus to run in trial mode.
+2013-01-14 15:53:16,696 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-14 15:53:16,696 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.3.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2013-01-14 15:53:23,602 [6] INFO  NServiceBusHosting.Main [(null)] <(null)> - Starting Nancy host on http://localhost:8888/nancy/
+2013-01-14 15:53:28,336 [10] INFO  NServiceBusHosting.Main [(null)] <(null)> - Stopping Nancy host
